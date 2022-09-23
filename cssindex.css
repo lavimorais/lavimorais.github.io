@@ -1,0 +1,130 @@
+nav {
+    position: fixed;
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+     padding-top: 20px;
+    text-decoration: none;
+    position: fixed;
+    background-color: bisque;
+    box-sizing: border-box;
+
+    }
+
+.menu {
+        color: white;
+        background-color: rgb(197, 63, 255);
+        padding: 10px;
+        border-radius: 50px;
+        text-decoration: none;
+        box-shadow:2px 2px rgba(44, 0, 66, 0.655);
+    
+    }
+nav .menu:hover {
+    color: white;
+    background-color: rgb(232, 138, 246);
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+
+nav .menu:active {
+color: white;
+background-color:rgb(106, 0, 151);
+text-decoration: none;
+border-radius: 50px;
+
+}
+
+
+
+.header {
+    background-image: linear-gradient(to right, rgb(255, 233, 161), rgba(210, 137, 255, 0.399));
+    position: static;
+   padding-top: 80px;
+   margin:auto;
+}
+
+
+h1 {
+     text-align: right;
+    color: white;
+    font-family: 'Lobster Two',serif;
+    font-weight: bold;
+    font-size: 70px;
+     text-decoration: dashed;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 150px;
+    right: 50px;
+    box-shadow: inset;
+}
+
+h2 {
+        text-align: center;
+        color: rgb(62, 0, 0);
+        font-family: 'Space Mono', monospace, serif;
+        font-weight: bold;
+        font-size: 45px;
+        text-transform: uppercase;
+       
+       
+}
+
+
+
+body {
+    font-family: 'Zilla Slab', serif;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+
+}
+
+footer {
+    font-family: 'Zilla Slab', serif;
+    background-color: rgba(115, 44, 0, 0.695);
+    color: white;
+    font-weight: lighter;
+  
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+table {
+    background-color: rgba(211, 211, 211, 0.3);
+    border-color: blueviolet;
+    border: 1px;
+    border-style: double;
+    margin: 10px;
+}
+
+
+
+td {
+    border-color: blueviolet;
+    border: 1px;
+    border-style: dashed;
+}
+
+tr {
+    border-color: blueviolet;
+    border: 1px;
+    border-style: dashed;
+}
+
+article {
+    margin-top: 50px;
+    background-color: rgba(255, 230, 194, 0.179);
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
